@@ -18,10 +18,10 @@
         <div class="logo">д-р Сербезова</div>
         <nav>
             <a href="#za-nas">За нас</a>
-            <a href="#uslugi">Услуги</a>
-            <a href="#galeria">Галерия</a>
-            <a href="#ceni">Цени</a>
-            <a href="#kontakti">Контакти</a>
+            <a href="#services">Услуги</a>
+<!--            <a href="#galeria">Галерия</a>-->
+            <a href="#prices">Цени</a>
+            <a href="#contacts">Контакти</a>
         </nav>
     </div>
 </header>
@@ -42,66 +42,194 @@
     </div>
 </section>
 
-<section id="uslugi" class="section">
-    <div class="container">
+<section id="services">
+    <div class="services-container">
         <h2>Услуги</h2>
-        <div class="grid">
-            <div class="card">Профилактика</div>
-            <div class="card">Почистване на зъбен камък</div>
-            <div class="card">Импланти</div>
-            <div class="card">Избелване</div>
-            <div class="card">Ортодонтия</div>
-            <div class="card">Естетична стоматология</div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <h3>🦷 Прегледи и диагностика</h3>
+                <p>Обстоен стоматологичен преглед, консултация и изготвяне на индивидуален план за лечение.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>✨ Обтурации (Пломби)</h3>
+                <p>Естетични фотополимерни възстановявания при кариеси и фрактури на зъбите.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🔬 Ендодонтско лечение</h3>
+                <p>Лечение на коренови канали – почистване, обработка и запълване с модерни материали.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🦷 Екстракции</h3>
+                <p>Безболезнено вадене на постоянни и временни зъби, както и хирургични интервенции при възпаления.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🪥 Профилактика</h3>
+                <p>Почистване на зъбен камък, AirFlow и поддържане на здрава и красива усмивка.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>👑 Протетика</h3>
+                <p>Изработка на корони (металокерамични, циркониеви), временни конструкции и възстановяване на силно разрушени зъби.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🦷 Протези</h3>
+                <p>Частични и цели протези за възстановяване на дъвкателната функция и естетиката.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>😁 Ортодонтия</h3>
+                <p>Брекети, алайнери и ортодонтски апарати за корекция на захапката и подреждане на зъбите.</p>
+            </div>
+
         </div>
     </div>
 </section>
 
-<section id="galeria" class="section light">
-    <div class="container">
-        <h2>Галерия</h2>
-        <p>Вижте нашия кабинет и екип в действие</p>
-        <div class="gallery-grid">
-            <img src="images/kabinet1.webp" alt="Кабинет 1" loading="lazy">
-            <img src="images/kabinet3.webp" alt="Екип" loading="lazy">
-            <img src="images/kabinet4.webp" alt="Оборудване" loading="lazy">
+<!--<section id="galeria" class="section light">-->
+<!--    <div class="container">-->
+<!--        <h2>Галерия</h2>-->
+<!--        <p>Вижте нашия кабинет и екип в действие</p>-->
+<!--        <div class="gallery-grid">-->
+<!--            <img src="images/kabinet1.webp" alt="Кабинет 1" loading="lazy">-->
+<!--            <img src="images/kabinet3.webp" alt="Екип" loading="lazy">-->
+<!--            <img src="images/kabinet4.webp" alt="Оборудване" loading="lazy">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section id="prices">
+    <div class="prices-container">
+        <h2>Ценоразпис</h2>
+
+        <!-- Прегледи -->
+        <div class="price-category">
+            <h3>Прегледи и диагностика</h3>
+            <ul>
+                <li><span>Обстоен преглед / консултация</span><strong>15€</strong></li>
+                <li><span>Локална анестезия</span><strong>15€</strong></li>
+            </ul>
         </div>
+
+        <!-- Обтурации -->
+        <div class="price-category">
+            <h3>Обтурации (Пломби)</h3>
+            <ul>
+                <li><span>Фотополимер – 1 повърхност</span><strong>45€</strong></li>
+                <li><span>Фотополимер – 2 повърхности</span><strong>50€</strong></li>
+                <li><span>Фотополимер – 3 повърхности</span><strong>55€</strong></li>
+            </ul>
+        </div>
+
+        <!-- Ендодонтия -->
+        <div class="price-category">
+            <h3>Ендодонтско лечение</h3>
+            <ul>
+                <li><span>Девитализация на зъбна пулпа</span><strong>10€</strong></li>
+                <li><span>Механична и химична обработка на коренов канал</span><strong>20€</strong></li>
+                <li><span>Запълване на коренов канал</span><strong>20€</strong></li>
+                <li><span>Поставяне на коренов щифт</span><strong>20€</strong></li>
+            </ul>
+        </div>
+
+        <!-- Екстракции -->
+        <div class="price-category">
+            <h3>Екстракции</h3>
+            <ul>
+                <li><span>Екстракция на зъб с анестезия</span><strong>45€</strong></li>
+                <li><span>Екстракция на временен зъб</span><strong>18€</strong></li>
+                <li><span>Екстракция на дълбоко фрактуриран зъб</span><strong>65€</strong></li>
+                <li><span>Инцизия и дренаж при възпалителен процес</span><strong>45€</strong></li>
+            </ul>
+        </div>
+
+        <!-- Профилактика -->
+        <div class="price-category">
+            <h3>Профилактика</h3>
+            <ul>
+                <li><span>Почистване на зъбен камък с ултразвук</span><strong>38€</strong></li>
+                <li><span>AirFlow избелване</span><strong>28€</strong></li>
+            </ul>
+        </div>
+
+        <!-- Протетика -->
+        <div class="price-category">
+            <h3>Протетика</h3>
+            <ul>
+                <li><span>Бленд-керамична корона</span><strong>130€</strong></li>
+                <li><span>Метало-керамична корона</span><strong>160€</strong></li>
+                <li><span>Циркониева корона</span><strong>306€</strong></li>
+                <li><span>Временна корона</span><strong>20€</strong></li>
+                <li><span>Сваляне на корона</span><strong>20€</strong></li>
+                <li><span>Циментиране на корона</span><strong>20€</strong></li>
+                <li><span>Вземане на отпечатък</span><strong>15€</strong></li>
+            </ul>
+        </div>
+
+        <!-- Протези -->
+        <div class="price-category">
+            <h3>Протези</h3>
+            <ul>
+                <li><span>Протеза от мека пластмаса (една челюст)</span><strong>410€</strong></li>
+                <li><span>Плакова протеза</span><strong>265€</strong></li>
+                <li><span>Кемени-микропротеза</span><strong>50€</strong></li>
+            </ul>
+        </div>
+
+        <!-- Ортодонтия -->
+        <div class="price-category">
+            <h3>Ортодонтия</h3>
+            <ul>
+                <li><span>Снемаем ортодонтски апарат</span><strong>235€</strong></li>
+                <li><span>Брекети</span><strong>2000€</strong></li>
+                <li><span>Алайнери</span><strong>2000€</strong></li>
+            </ul>
+        </div>
+
+        <p class="price-note">
+            *Цените са ориентировъчни и подлежат на индивидуална оценка след преглед.
+        </p>
     </div>
 </section>
 
-<section id="ceni" class="section light">
-    <div class="container">
-        <h2>Цени</h2>
-        <table>
-            <tr>
-                <th>Услуга</th>
-                <th>Цена</th>
-            </tr>
-            <tr>
-                <td>Преглед</td>
-                <td>50 евро</td>
-            </tr>
-            <tr>
-                <td>Почистване</td>
-                <td>120 евро</td>
-            </tr>
-            <tr>
-                <td>Избелване</td>
-                <td>350 евро</td>
-            </tr>
-        </table>
-    </div>
-</section>
-
-<section id="kontakti" class="section">
-    <div class="container">
+<section id="contacts">
+    <div class="contact-container">
         <h2>Контакти</h2>
-        <p>Телефон: <a href="tel:+359889392661">+ 359 889 392 661</a></p>
-        <p>Имейл: <a href="mailto:info@drserbezova.bg">info@drserbezova.bg</a></p>
-        <p>Адрес: ж.к. Младост 1 38, 1415 София, България </p>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.3257662559367!2d23.374501277137675!3d42.65445157116698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8688d6898e7d%3A0x9918a14be0ed7d10!2sBranimira%20Dimitrova%20Serbezova!5e0!3m2!1sen!2sbg!4v1772442665595!5m2!1sen!2sbg"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <h3>📞 Телефон</h3>
+                <a href="tel:+359889392661">+359 889 392 661</a>
+            </div>
+
+<!--            <div class="contact-card">-->
+<!--                <h3>📧 Имейл</h3>-->
+<!--                <a href="mailto:branimirads@gmail.com">branimirads@gmail.com</a>-->
+<!--            </div>-->
+
+            <div class="contact-card">
+                <h3>📍 Адрес</h3>
+                <p>ж.к. Младост 1, бл. 38<br>1415 София, България</p>
+            </div>
+
+        </div>
+
+        <div class="map-wrapper">
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.3257662559367!2d23.374501277137675!3d42.65445157116698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8688d6898e7d%3A0x9918a14be0ed7d10!2sBranimira%20Dimitrova%20Serbezova!5e0!3m2!1sen!2sbg!4v1772442665595!5m2!1sen!2sbg"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
     </div>
 </section>
 
