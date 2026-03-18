@@ -414,6 +414,13 @@ nav a:hover {
     font-size: 15px;
 }
 
+div .working-hours {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
     .hero-wrapper {
