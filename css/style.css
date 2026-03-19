@@ -588,6 +588,11 @@ div .working-hours {
     .hero-content h1 {
         font-size: 28px;
     }
+    
+    .hero-info {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
     .subtitle {
         font-size: 17px;
