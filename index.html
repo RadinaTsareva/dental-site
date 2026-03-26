@@ -11,6 +11,38 @@
     <link rel="canonical" href="https://dr-serbezova.online/">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
+<button id="chat-toggle-btn">💬 Чат с нас</button>
+
+<div id="chat-widget">
+    <div id="chat-header">
+        <span>Дентален асистент</span>
+        <button id="chat-close">&times;</button>
+    </div>
+
+    <div id="chat-messages"></div>
+
+    <div id="chat-quick-actions">
+        <button class="quick-btn" data-question="Как да запиша час?">Записване</button>
+        <button class="quick-btn" data-question="Работите ли с НЗОК?">НЗОК</button>
+        <button class="quick-btn" data-question="Какво е работното време?">Работно време</button>
+        <button class="quick-btn" data-question="Колко струва пломба?">Пломба</button>
+        <button class="quick-btn" data-question="Колко струва почистване на зъбен камък?">Почистване</button>
+        <button class="quick-btn" data-question="Поставяте ли брекети?">Брекети</button>
+        <button class="quick-btn" data-question="Къде се намира кабинетът?">Адрес</button>
+        <button class="quick-btn" data-question="Какъв е телефонът?">Телефон</button>
+    </div>
+
+    <div id="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Напишете въпрос..." />
+        <button id="chat-send">Изпрати</button>
+    </div>
+
+    <div id="chat-links">
+        <a class="chat-link-btn" href="tel:+359000000000">📞 Обади се</a>
+    </div>
+</div>
+
 <body>
 
 <header class="header">
